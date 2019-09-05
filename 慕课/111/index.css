@@ -1,0 +1,59 @@
+img{
+    position: absolute;
+    width: 936px;
+    height: 316px;
+}
+
+.side{
+    font-size: 25px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.6);
+    width: 36px;
+    height: 60px;
+
+}
+
+.side:hover{
+    background-color: rgba(7, 17, 27, 0.6);
+    border-radius: 3px;
+
+}
+
+.side:only-child{
+    height: 60px;
+
+}
+
+#leftside{
+
+    left: 10px;
+    top: 140px;
+
+}
+
+#rightside{
+
+    left: 906px;
+    top: 140px;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    left: 775px;
+    top: 270px;
+}
+
+li{
+    /*position: ;*/
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    width: 18px;
+    height: 20px;
+}
+
+.yuan{
+    width: 20px;
+    height: 20px;
+}
